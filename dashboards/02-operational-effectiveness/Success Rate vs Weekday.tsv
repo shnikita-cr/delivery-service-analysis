@@ -1,0 +1,8 @@
+weekday_number	weekday	created_orders	canceled_orders	actual_orders	success_rate
+1	Mon	8374	434	7940	0.948
+2	Tue	7193	370	6823	0.949
+3	Wed	3758	210	3548	0.944
+4	Thu	5004	258	4746	0.948
+5	Fri	6800	352	6448	0.948
+6	Sat	8249	399	7850	0.952
+7	Sun	9454	443	9011	0.953
