@@ -66,9 +66,7 @@ WITH cancelled_orders AS (SELECT DISTINCT order_id
                SELECT time::DATE AS date
                FROM courier_actions),
      daily_metrics AS (SELECT d.date,
-
                               COALESCE(rt.revenue, 0) AS revenue,
-
                               (
                                   CASE
                                       WHEN d.date < DATE '2022-09-01'
